@@ -13,7 +13,7 @@ const Hero = () => (
           className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}
         >
           <h2 className="font-extrabold text-2xl md:text-4xl text-white">
-            iPrep.Ai
+            iPrep <span className="text-red-600 m-0 p-0 -mx-1">.</span> Ai
           </h2>
         </div>
       </div>
