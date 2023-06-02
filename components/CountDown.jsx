@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 
 const CountDown = () => {
   // Set the date we're counting down to
-  const countDownDate = new Date('May 16, 2023 00:00:00').getTime();
+  const countDownDate = new Date('June 16, 2023 00:00:00').getTime();
 
   // Set state variables for days, hours, minutes, and seconds
   const [days, setDays] = useState(0);
